@@ -104,15 +104,14 @@
         </form>
         <div id="resultado">
             <h2>Parabéns!</h2>
-            <p>Você acertou, agora antes de contínua procure o grupo que fale sobre chuva ácida para eles te da o login e a senha do último engima!!!</p>
-            <p>chuva acida.</p>
+            <p>quais são os 2 grupos principais da classificação dos ciclos biogeoquímicos?</p>
             <a href="login1.html">continua enigma</a>
         </div>
     </main>
     <script>
         function checkAnswer() {
             var resposta = document.getElementById('resposta').value.trim().toLowerCase();
-            if (resposta === 'chuva acida') {
+            if (resposta === 'gasoso e sedimentares') {
                 document.getElementById('resultado').style.display = 'block';
                 document.getElementById('erro').style.display = 'none';
             } else {
